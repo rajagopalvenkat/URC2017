@@ -1,5 +1,6 @@
 # URC2017
-1)Control python script which interacts with the arduino serially .
+1)Control , deals with how we control the rover.
+2)Sense , deals with the Sensory modules of the rover
 
 #Need to work on the following modules
 
