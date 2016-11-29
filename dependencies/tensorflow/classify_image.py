@@ -203,6 +203,8 @@ if __name__ == '__main__':
   camera = PiCamera()
   camera.resolution = (640, 480)
   camera.framerate = 32
+  camera.start_preview()
+  camera.capture('image.jpg')
   parser = argparse.ArgumentParser()
   # classify_image_graph_def.pb:
   #   Binary representation of the GraphDef protocol buffer.
@@ -226,6 +228,13 @@ if __name__ == '__main__':
       default='',
       help='Absolute path to image file.'
   )
+  parser.add_argument(
+      '--webcam',
+      type=str,
+      default='image.jpg',
+      help='Absolute path to image file.'
+   )
+
   parser.add_argument(
       '--num_top_predictions',
       type=int,
