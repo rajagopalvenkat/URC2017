@@ -18,3 +18,5 @@ Autonomous driving in the case of a "mars rover" would primarily have to deal wi
 A) Visually guided navigation system.
 
 B) Inertially guided navigation system.
+
+3)Incase of communication faliure , it should come back to the last place with better communication.
