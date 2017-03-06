@@ -4,7 +4,7 @@ import arduinoserial
 #import serial
 
 baud = 9600
-usb_dev ='ttyACM0'
+usb_dev ='ttyACM1'
 
 class Example(tk.Frame):
     def __init__(self, parent):
