@@ -125,10 +125,10 @@ else if(command=="F" && mode == 0) {                                  //Move for
            //Serial.print(input);
            //Serial.println("right");
            analogWrite(13,255);
-           //analogWrite(RightA1,245);
+           analogWrite(RightA1,245);
            delay(100); 
            analogWrite(13,0);
-           //analogWrite(RightA1,0);
+           analogWrite(RightA1,0);
   
 }
 else if(command=="B" && mode == 0) {                                  //Move forward
