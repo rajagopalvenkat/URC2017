@@ -1,7 +1,0 @@
-+ TESTFILE=Makefile
-+ ./zcgzip
-+ gunzip
-+ cmp - Makefile
-+ gzip
-+ ./zcgunzip
-+ cmp - Makefile
